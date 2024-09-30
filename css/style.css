@@ -25,3 +25,46 @@ html{
     font-style: normal;
     font-size: 1rem;
 }
+/*LAYOUT*/
+
+.container-12{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.main-content .row, .footbar .row{
+    flex-wrap: wrap;
+}
+
+.col-12{
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+
+
+/*TEXT FORMATTING*/
+
+.bold{
+    font-weight: bold;
+}
+
+/*HEADER*/
+
+.navbar .col-12{
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.navbar .navbar-title{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#FF9614;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
